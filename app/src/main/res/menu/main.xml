@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:bizbump="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/sync"
+          android:icon="@drawable/refresh"
+          android:title="Refresh"
+          bizbump:showAsAction="always" />
+
+    <item android:id="@+id/about"
+          android:title="About"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+</menu>
